@@ -1,0 +1,104 @@
+@import "tailwindcss";
+:root {
+  --dark-slate: #2D423B;
+  --cambridge-blue: #7A948B;
+  --linen: #EDE3DE;
+  --khaki: #C6AA96;
+  --old-rose: #BA7878;
+}
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+html {
+  scroll-behavior: smooth;
+}
+.shiny {
+  position: relative;
+  overflow: hidden;
+}
+
+.shiny::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.05) 100%);
+  transform: skewX(-20deg);
+  animation: shine 2s infinite;
+}
+
+
+@keyframes shine {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+.bg-dark-slate {
+  background-color: var(--dark-slate);
+}
+
+.bg-cambridge-blue {
+  background-color: var(--cambridge-blue);
+}
+
+.bg-linen {
+  background-color: var(--linen);
+}
+
+.bg-khaki {
+  background-color: var(--khaki);
+}
+
+.bg-old-rose {
+  background-color: var(--old-rose);
+}
+
+.text-dark-slate {
+  color: var(--dark-slate);
+}
+
+.text-cambridge-blue {
+  color: var(--cambridge-blue);
+}
+
+.text-linen {
+  color: var(--linen);
+}
+
+.text-khaki {
+  color: var(--khaki);
+}
+
+.text-old-rose {
+  color: var(--old-rose);
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background: linear-gradient(-45deg, #302626, #07031a, #3d0138, #83cbec);
+  background-size: 400% 400%;
+  animation: gradientMove 6s ease infinite;
+}
