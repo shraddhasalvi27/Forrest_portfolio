@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Michroma&display=swap');
+
 @import "tailwindcss";
+
+
+
 :root {
   --dark-slate: #2D423B;
   --cambridge-blue: #7A948B;
@@ -7,6 +17,19 @@
   --old-rose: #BA7878;
 }
 
+.font-inter {
+  font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.orbitron-font {
+  font-family: 'Orbitron', sans-serif;
+}
+.michroma-regular {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
@@ -98,7 +121,29 @@ html {
 }
 
 .animate-gradient {
-  background: linear-gradient(-45deg, #302626, #07031a, #3d0138, #83cbec);
+  background: linear-gradient(
+    -45deg,
+    #ff0606,   /* jet black */
+    #e98e25,   /* dark gray */
+    #c7323a,   /* burnt orange / deep bronze */
+    #250000,   /* charcoal gray */
+    #070707    /* rich deep black */
+  );
   background-size: 400% 400%;
-  animation: gradientMove 6s ease infinite;
+  animation: gradientMove 6s ease-in-out infinite;
 }
+
+/* Synced gear spin */
+@keyframes slow-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: slow-spin 3s linear infinite; /* synced with gradientMove */
+}
+

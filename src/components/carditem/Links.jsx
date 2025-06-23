@@ -1,12 +1,15 @@
 const LinksCard = () => {
+  const linkClasses =
+    " px-2 rounded-md border border-white/10 outline outline-1 outline-white/5 outline-offset-2 hover:scale-105 transition";
+
   return (
-    <div className="col-span-1 row-span-1 rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(255,255,255,0.05)] flex flex-col items-center justify-center bg-white/5 backdrop-blur-md text-white">
-      <div className="grid grid-cols-2 gap-5 text-3xl md:text-4xl">
+    <div className="w-full rounded-xl border border-white/10   outline-offset-2 shadow-[0_0_30px_rgba(255,255,255,0.05)] bg-white/5 backdrop-blur-md text-white p-2">
+      <div className="flex justify-evenly text-xl gap-3 flex-wrap">
         <a
           href="https://github.com/yourusername"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-400 transition"
+          className={linkClasses + " hover:text-gray-400"}
         >
           <i className="fab fa-github"></i>
         </a>
@@ -14,7 +17,7 @@ const LinksCard = () => {
           href="https://linkedin.com/in/yourusername"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-400 transition"
+          className={linkClasses + " hover:text-blue-400"}
         >
           <i className="fab fa-linkedin"></i>
         </a>
@@ -22,13 +25,13 @@ const LinksCard = () => {
           href="https://twitter.com/yourusername"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-white transition"
+          className={linkClasses + " hover:text-white"}
         >
           <i className="fab fa-x-twitter"></i>
         </a>
         <a
           href="mailto:yourmail@gmail.com"
-          className="hover:text-red-400 transition"
+          className={linkClasses + " hover:text-red-400"}
         >
           <i className="fas fa-envelope"></i>
         </a>
@@ -36,7 +39,7 @@ const LinksCard = () => {
           href="https://discord.com/users/YOUR_DISCORD_USER_ID"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-indigo-400 transition"
+          className={linkClasses + " hover:text-indigo-400"}
         >
           <i className="fab fa-discord"></i>
         </a>

@@ -2,15 +2,14 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="border border-white/10 shadow-[0_0_30px_rgba(255,255,255,0.05)] p-4 bg-white/5 backdrop-blur-md text-white rounded-xl row-span-3 col-span-2 flex flex-col gap-3">
-      <div className="bg-pink-200 h-30 rounded-md flex flex-row justify-center items-center px-3 text-lg text-pink-950 font-semibold italic font-serif">"I learn from every mistake. <br/>Stay Foolish Stay hungry"</div>
-      <form className="space-y-3">
+    <div className=" text-sm border border-white/10  outline-1 outline-white/5 outline-offset-2 shadow-[0_0_30px_rgba(255,255,255,0.05)] p-6 bg-white/5 backdrop-blur-md text-white rounded-2xl row-span-3 col-span-2 flex flex-col gap-4">
+      <form className="space-y-4">
         <div>
           <input
             type="text"
             id="name"
             placeholder="Your Name"
-            className="w-full mt-1 p-2 text-white bg-transparent border border-white/20 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-400 placeholder:text-white/60"
+            className=" font-inter w-full px-4 py-2 text-white bg-white/10 border border-white/10  outline-1 outline-white/5 outline-offset-2 rounded-md focus:outline-none focus:ring-2 focus:ring-rose-400 placeholder:text-white/60 transition"
           />
         </div>
         <div>
@@ -18,7 +17,7 @@ const ContactForm = () => {
             type="email"
             id="email"
             placeholder="you@example.com"
-            className="w-full mt-1 p-2 text-white bg-transparent border border-white/20 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-400 placeholder:text-white/60"
+            className="w-full px-4 py-2 text-white bg-white/10 border border-white/10 outline-1 outline-white/5 outline-offset-2 rounded-md focus:outline-none focus:ring-2 focus:ring-rose-400 placeholder:text-white/60 transition"
           />
         </div>
         <div>
@@ -26,13 +25,13 @@ const ContactForm = () => {
             id="message"
             rows="4"
             placeholder="Your message..."
-            className="w-full mt-1 p-2 text-white bg-transparent border border-white/20 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-400 placeholder:text-white/60"
+            className="w-full px-4 py-2 text-white bg-white/10 border border-white/10  outline-1 outline-white/5 outline-offset-2 rounded-md focus:outline-none focus:ring-2 focus:ring-rose-400 placeholder:text-white/60 transition"
           ></textarea>
         </div>
-        <div className="text-center">
+        <div>
           <button
             type="submit"
-            className="px-6 py-2 bg-pink-700 hover:bg-pink-600 text-white font-semibold rounded-md transition w-full"
+            className="w-full px-6 py-2 font-semibold rounded-md bg-gradient-to-r from-pink-500 via-rose-400 to-orange-400 text-white hover:brightness-110 transition"
           >
             Send Message
           </button>
