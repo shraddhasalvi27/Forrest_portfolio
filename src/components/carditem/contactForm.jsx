@@ -46,7 +46,7 @@ const ContactForm = () => {
           name="email"
           placeholder="you@example.com"
           required
-          className="text-sm w-full px-4 py-2 text-white bg-white/10 border border-white/10 rounded-md placeholder:text-white/60"
+          className="text-sm w-full px-4 py-2 text-white bg-white/10 border-0 border-white/10 rounded-md placeholder:text-white/60"
         />
         <textarea
           name="message"
@@ -57,7 +57,7 @@ const ContactForm = () => {
         ></textarea>
         <button
           type="submit"
-          className="w-full px-6 py-2 font-semibold rounded-md bg-gradient-to-r from-pink-500 via-rose-400 to-orange-400 text-white hover:brightness-110 transition"
+          className="w-full px-6 py-2 font-semibold rounded-md bg-gradient-to-r from-pink-800 via-rose-500 to-orange-600  text-white hover:brightness-110 transition"
         >
           {loading ? "Sending..." : "Send Message"}
         </button>

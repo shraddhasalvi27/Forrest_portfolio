@@ -1,4 +1,7 @@
+import RoleSwitcher from "./rolswitcher";
+
 const Profile = () => {
+  
   return (
     <div className="mx-auto relative rounded-xl px-4 sm:px-6 py-4 sm:py-5 border border-white/10 shadow-[0_0_30px_rgba(255,255,255,0.05)] bg-white/5 backdrop-blur-md text-white space-y-5 overflow-hidden">
       
@@ -17,9 +20,7 @@ const Profile = () => {
         />
         <div>
           <h2 className="text-base sm:text-base text-white font-extrabold">Shraddha Salvi</h2>
-          <span className="inline-block bg-gradient-to-r from-pink-800 via-rose-500 to-orange-600 text-xs px-2 rounded-full font-light">
-            Fullstack
-          </span>
+          <RoleSwitcher/>
         </div>
       </div>
 
