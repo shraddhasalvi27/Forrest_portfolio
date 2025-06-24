@@ -72,7 +72,7 @@ const Bento = () => {
           animate="visible"
           className="rounded-xl shadow flex-[3]"
         >
-          <img src={galaxy} className="object-cover rounded-md" />
+          <img src={galaxy} className="object-cover rounded-xl" />
         </motion.div>
       </div>
     </div>

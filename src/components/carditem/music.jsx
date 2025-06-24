@@ -75,8 +75,8 @@ const MusicCard = () => {
       </div>
 
       {/* Quote */}
-      <div className="border-l-4 border-orange-600 pl-4 italic text-xs text-white/80">
-        “  Faith in myself . Doubt kills more dreams. ”
+      <div className="border-l-4 border-orange-400 pl-4 italic text-xs text-white/80">
+        “ Faith in myself . Doubt kills more dreams.”
       </div>
 
       {/* Audio */}

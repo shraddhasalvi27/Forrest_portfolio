@@ -27,9 +27,9 @@ const Profile = () => {
       {/* Bio Section */}
       <div className="space-y-1 text-sm leading-relaxed text-white font-thin relative z-10">
         <p>
-          Full Stack Developer (MERN) with hands-on project experience. From
-          rural Ratnagiri, driven to build and uplift through tech. Always
-          learning — React, Web3, automation, open source.
+          Website Developer with hands-on project experience. From
+          India , Mumbai driven to build and uplift through tech. Always
+          learning — Fullstack, Web3, automation, open source.
         </p>
         Creative thinker blending logic, design, and curiosity.
       </div>
