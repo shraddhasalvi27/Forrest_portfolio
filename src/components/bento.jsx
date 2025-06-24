@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Profile from "./carditem/Profile";
-import Second from "./carditem/second";
+import Second from "./carditem/Second";
 import ContactForm from "./carditem/contactForm";
 import galaxy from "../assets/galaxy1.jpg";
 import MusicCard from "./carditem/music";
