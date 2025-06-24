@@ -54,13 +54,13 @@ const MusicCard = () => {
         <div className="flex items-center justify-between w-full">
           <div>
             <h3 className="text-sm font-thin text-white">
-              Running with the Wolves
+              Light Of The Seven
             </h3>
-            <p className="text-sm text-gray-400">Aurora</p>
+            <p className="text-xs text-gray-400 mt-1">Ramin Djawadi</p>
           </div>
         </div>
 
-        <div className="flex items-center justify-between w-full gap-4 mt-2">
+        <div className="flex items-center justify-between w-full gap-4 mt-1 ">
           <div className="flex-1 h-1 bg-gray-700 rounded">
             <div className="w-1/4 h-full bg-white rounded"></div>
           </div>
@@ -75,8 +75,8 @@ const MusicCard = () => {
       </div>
 
       {/* Quote */}
-      <div className="border-l-4 border-pink-500 pl-4 italic text-xs text-white/80">
-        “I was listening to the ocean, I saw a face in the sand.”
+      <div className="border-l-4 border-orange-600 pl-4 italic text-xs text-white/80">
+        “  Faith in myself . Doubt kills more dreams. ”
       </div>
 
       {/* Audio */}

@@ -11,7 +11,7 @@ const Second = () => {
         <LinksCard />
         {/* Project Card Fills Remaining Space */}
         <div className="flex-1 rounded-xl shadow p-2 flex animate-gradient text-gray-900 backdrop-blur-md border border-white/10">
-          <div className="relative w-80 h-32">
+          <div className="relative w-full h-32">
             {/* Gear 1 */}
             <i className="fas fa-cog text-white opacity-30 text-4xl animate-spin-slow absolute top-1 left-0 z-10" />
 
@@ -21,8 +21,8 @@ const Second = () => {
             {/* Gear 3 (another offset for depth) */}
             <i className="fas fa-cog text-white text-7xl opacity-30 animate-spin-slow absolute top-1 left-24 z-30" />
 
-            <span className=" font-extrabold text-sm absolute bottom-0 right-2 bg-clip-text text-white drop-shadow-md">
-              Projects
+            <span className=" fill-transparent font-inter font-extrabold text-sm absolute bottom-2 right-2 bg-clip-text text-white drop-shadow-lg leading-1">
+              PROJECTS
             </span>
           </div>
         </div>

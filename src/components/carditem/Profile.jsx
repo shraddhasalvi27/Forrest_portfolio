@@ -3,7 +3,7 @@ const Profile = () => {
     <div className="mx-auto relative rounded-xl px-4 sm:px-6 py-4 sm:py-5 border border-white/10 shadow-[0_0_30px_rgba(255,255,255,0.05)] bg-white/5 backdrop-blur-md text-white space-y-5 overflow-hidden">
       
       {/* Top Left Gradient */}
-      <div className="absolute top-0 left-0 w-28 h-28 sm:w-32 sm:h-32 bg-gradient-to-br from-rose-400/20 via-purple-500/10 to-transparent rounded-full pointer-events-none blur-2xl" />
+      <div className="absolute top-0 left-0 w-28 h-28 sm:w-32 sm:h-32 bg-gradient-to-br from-rose-400/20 via-purple-500/10 to-transparent rounded-full pointer-events-none blur-xl" />
 
       {/* Bottom Right Gradient */}
       <div className="absolute bottom-0 right-0 w-28 h-28 sm:w-32 sm:h-32 bg-gradient-to-tl from-orange-500/20 via-pink-500/10 to-transparent rounded-full pointer-events-none blur-2xl" />
@@ -16,7 +16,7 @@ const Profile = () => {
           className="w-12 h-12 rounded-full object-cover border border-white/20"
         />
         <div>
-          <h2 className="text-base sm:text-base">Shraddha Salvi</h2>
+          <h2 className="text-base sm:text-base text-white font-extrabold">Shraddha Salvi</h2>
           <span className="inline-block bg-gradient-to-r from-pink-800 via-rose-500 to-orange-600 text-xs px-2 rounded-full font-light">
             Fullstack
           </span>
@@ -24,7 +24,7 @@ const Profile = () => {
       </div>
 
       {/* Bio Section */}
-      <div className="space-y-1 text-sm leading-relaxed text-white/90 font-thin relative z-10">
+      <div className="space-y-1 text-sm leading-relaxed text-white font-thin relative z-10">
         <p>
           Full Stack Developer (MERN) with hands-on project experience. From
           rural Ratnagiri, driven to build and uplift through tech. Always

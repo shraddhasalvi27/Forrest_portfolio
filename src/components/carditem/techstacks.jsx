@@ -36,7 +36,7 @@ const TechStackCard = () => {
     <div className="relative font-inter rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(255,255,255,0.05)] p-4 bg-white/5 backdrop-blur-md text-white overflow-hidden">
       {/* Background Text */}
       <div className="absolute inset-0 flex pointer-events-none">
-        <h1 className="text-[1rem] lg:text-[5rem] font-bold text-white/3 select-none leading-none">
+        <h1 className="text-[6rem] lg:text-[5rem] font-bold text-white/3 select-none leading-none">
           TECH STACK {"{.....}"}
         </h1>
       </div>
