@@ -1,19 +1,48 @@
 import { useState } from "react";
 
 const techStacks = [
-  "JavaScript", "TypeScript", "React.js", "Next.js", "TailwindCSS", "ReduxToolkit",
-  "Node.js", "Express.js", "MongoDB", "PostgreSQL", "HTML5", "CSS3",
-  "FramerMotion", "ShadCN/UI", "Vite", "SCSS", "GitHub", "REST APIs",
-  "JWT Auth", "ThunderClient", "Jest", "Cypress", "Playwright", "Solana",
-  "Markdown", "SEO"
+  "JavaScript",
+  "TypeScript",
+  "React.js",
+  "Next.js",
+  "TailwindCSS",
+  "ReduxToolkit",
+  "Node.js",
+  "Express.js",
+  "MongoDB",
+  "PostgreSQL",
+  "HTML5",
+  "CSS3",
+  "FramerMotion",
+  "ShadCN/UI",
+  "Vite",
+  "SCSS",
+  "GitHub",
+  "REST APIs",
+  "JWT Auth",
+  "ThunderClient",
+  "Jest",
+  "Cypress",
+  "Playwright",
+  "Solana",
+  "Markdown",
+  "SEO",
 ];
 
 const TechStackCard = () => {
   const [selected, setSelected] = useState(null);
 
   return (
-    <div className="font-inter rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(255,255,255,0.05)] p-4 bg-white/5 backdrop-blur-md text-white">
-      <div className="flex flex-wrap gap-3">
+    <div className="relative font-inter rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(255,255,255,0.05)] p-4 bg-white/5 backdrop-blur-md text-white overflow-hidden">
+      {/* Background Text */}
+      <div className="absolute inset-0 flex pointer-events-none">
+        <h1 className="text-[1rem] lg:text-[5rem] font-bold text-white/3 select-none leading-none">
+          TECH STACK {"{.....}"}
+        </h1>
+      </div>
+
+      {/* Tech Stack Items */}
+      <div className="relative z-10 flex flex-wrap gap-3">
         {techStacks.map((tech, idx) => (
           <div
             key={idx}

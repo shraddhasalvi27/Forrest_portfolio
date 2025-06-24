@@ -2,7 +2,8 @@ import TechStackCard from "./techstacks";
 import LinksCard from "./Links";
 const Second = () => {
   return (
-    <div className="flex gap-5 items-stretch">
+   <div className="flex flex-col lg:flex-row gap-5 items-stretch">
+
       {/* Left Column */}
       <div className="flex-[3] flex flex-col gap-3 min-h-[100px]">
         {" "}

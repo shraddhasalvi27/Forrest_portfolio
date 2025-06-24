@@ -4,6 +4,7 @@ const LinksCard = () => {
 
   return (
     <div className="w-full rounded-xl border border-white/10   outline-offset-2 shadow-[0_0_30px_rgba(255,255,255,0.05)] bg-white/5 backdrop-blur-md text-white p-2">
+      
       <div className="flex justify-evenly text-xl gap-3 flex-wrap">
         <a
           href="https://github.com/yourusername"

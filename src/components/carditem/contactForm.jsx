@@ -9,7 +9,7 @@ const ContactForm = () => {
             type="text"
             id="name"
             placeholder="Your Name"
-            className=" font-inter w-full px-4 py-2 text-white bg-white/10 border border-white/10  outline-1 outline-white/5 outline-offset-2 rounded-md focus:outline-none focus:ring-2 focus:ring-rose-400 placeholder:text-white/60 transition"
+            className="text-sm font-inter w-full px-4 py-2 text-white bg-white/10 border border-white/10  outline-1 outline-white/5 outline-offset-2 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-300 placeholder:text-white/60 transition"
           />
         </div>
         <div>
@@ -17,7 +17,7 @@ const ContactForm = () => {
             type="email"
             id="email"
             placeholder="you@example.com"
-            className="w-full px-4 py-2 text-white bg-white/10 border border-white/10 outline-1 outline-white/5 outline-offset-2 rounded-md focus:outline-none focus:ring-2 focus:ring-rose-400 placeholder:text-white/60 transition"
+            className=" font-inter w-full px-4 py-2 text-white bg-white/10 border border-white/10 outline-1 outline-white/5 outline-offset-2 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-300 placeholder:text-white/60 text-sm transition "
           />
         </div>
         <div>
@@ -25,7 +25,7 @@ const ContactForm = () => {
             id="message"
             rows="4"
             placeholder="Your message..."
-            className="w-full px-4 py-2 text-white bg-white/10 border border-white/10  outline-1 outline-white/5 outline-offset-2 rounded-md focus:outline-none focus:ring-2 focus:ring-rose-400 placeholder:text-white/60 transition"
+            className=" font-inter w-full px-4 py-2 text-white bg-white/10 border border-white/10  outline-1 outline-white/5 outline-offset-2 rounded-md focus:outline-none focus:ring-1 focus:ring-gray-300 placeholder:text-white/60 transition"
           ></textarea>
         </div>
         <div>
